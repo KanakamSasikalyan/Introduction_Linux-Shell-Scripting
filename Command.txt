@@ -1,0 +1,26 @@
+#Commands Used in Bash (Bourne_Again_Shell)
+
+#########################
+ls  - List of Directories
+#########################
+
+
+#ls is probably the most common command. A lot of times, you’ll be working in a directory and you’ll need to know what files are located there. 
+The ls command allows you to quickly view all files within the specified directory.
+
+#Syntax: ls [option(s)] [file(s)]
+
+#Common options: -a, -l
+
+
+*************************************
+echo - prints a message on the screen
+*************************************
+#echo prints text to the terminal window and is typically used in shell scripts and batch files to output status text to the screen or a computer file.
+#Echo is also particularly useful for showing the values of environmental variables, which tell the shell how to behave as a user works at the command line or in scripts.
+
+#Syntax: echo [option(s)] [string(s)]
+
+#Common options: -e, -n
+
+#Continued .......
