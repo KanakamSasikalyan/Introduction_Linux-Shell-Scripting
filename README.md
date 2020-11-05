@@ -17,5 +17,3 @@ Bash is a POSIX-compliant shell, but with a number of extensions. The shell's na
 __Kernal__:
 Kernal is the lowest level of software that interfaces with the hardware in your computer. The Linux kernel is a fundamental part of Linux and contains millions lines of code. It is released under the GPL (GNU General Public License), which allows public access to the source code. 
 
-__Commands__:
-#Later Continued ....
