@@ -17,7 +17,7 @@ C=$((A+B))
 echo -e  "Addition : $C\n"
 
 C=$((A-B))
-echo -e "Subtractio : $C\n"
+echo -e "Subtraction : $C\n"
 
 C=$((A*B))
 echo -e "Multiplication : $C\n"
