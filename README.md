@@ -2,4 +2,4 @@
 
 #!/bin/bash
 
-echo "Welccome to Bash World!"
+echo "Welcome to Bash </> World ^_^"
