@@ -1,26 +1,82 @@
-#Commands Used in Bash (Bourne_Again_Shell)
+#############################################
+#Commands Used in Bash (Bourne_Again_Shell) #
+#############################################
+____date______:
+Purpose : To see the Date.
 
-#########################
-ls  - List of Directories
-#########################
+@Syntax : date
 
+___who____ :
+Purpose    : To Know who using the System.
 
-#ls is probably the most common command. A lot of times, you’ll be working in a directory and you’ll need to know what files are located there. 
-The ls command allows you to quickly view all files within the specified directory.
+@Syntax    : who
 
-#Syntax: ls [option(s)] [file(s)]
+__whoami__ :
+Purpose    : To See more about currently login person
+
+@Syntax    : whoami
+
+___pwd___  :
+Purpose    : To Know which directory you are currently working.
+
+@Syntax    : pwd
+
+___cat__   :
+Purpose    : To create text file.
+
+@Syntax    : cat > {file name}
+
+__cat__    :
+Purpose    : To text see files.
+
+@Syntax    : cat {file name}
+
+__mkdir__  :
+Purpose    : To make new directory.
+
+@Syntax    : mkdir {name of directory}
+
+__mv__     :
+Purpose    : To move or rename file/directory.
+
+@Syntax    : mv {file1} {file2}
+
+__rmdir__  :
+Purpose    : To remove or delete the direcory.
+
+@Syntax    : rmdir {name of direcory}
+
+__touch__  :
+Purpose    : To make a file
+
+@Syntax    : touch {file name}
+
+__less__   :
+Purpose    : To display a file text.
+
+@Syntax    : less {file name}
+
+__rm__     :
+Purpose    : To remove the file 
+
+@Syntax    : rm {file name}
+
+___ls___   :
+Purpose    : List of Directories
+
+Text       : ls is probably the most common command. A lot of times, you’ll be working in a directory and you’ll need to know what files are located there. 
+             The ls command allows you to quickly view all files within the specified directory.
+
+@Syntax: ls [option(s)] [file(s)]
 
 #Common options: -a, -l
 
+___echo __ :
+Purpose    : Prints a message on the screen
 
-*************************************
-echo - prints a message on the screen
-*************************************
-#echo prints text to the terminal window and is typically used in shell scripts and batch files to output status text to the screen or a computer file.
-#Echo is also particularly useful for showing the values of environmental variables, which tell the shell how to behave as a user works at the command line or in scripts.
+echo prints text to the terminal window and is typically used in shell scripts and batch files to output status text to the screen or a computer file.
+Echo is also particularly useful for showing the values of environmental variables, which tell the shell how to behave as a user works at the command line or in scripts.
 
-#Syntax: echo [option(s)] [string(s)]
+@Syntax: echo [option(s)] [string(s)]
 
 #Common options: -e, -n
-
-#Continued .......
